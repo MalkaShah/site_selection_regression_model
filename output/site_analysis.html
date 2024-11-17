@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_42a23e67ab201b937ef759a5a180958d {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+    <script src="https://cdn.jsdelivr.net/gh/python-visualization/folium@main/folium/templates/leaflet_heat.min.js"></script>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_42a23e67ab201b937ef759a5a180958d" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_42a23e67ab201b937ef759a5a180958d = L.map(
+                "map_42a23e67ab201b937ef759a5a180958d",
+                {
+                    center: [3.5621666666666663, 103.01143333333333],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 5,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_af3a04c06e4521bcf540b86c57cbe33f = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_af3a04c06e4521bcf540b86c57cbe33f.addTo(map_42a23e67ab201b937ef759a5a180958d);
+        
+    
+            var circle_marker_d71c68fd3864562d2ecb379e1ee06faf = L.circleMarker(
+                [3.139, 101.6869],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_42a23e67ab201b937ef759a5a180958d);
+        
+    
+        var popup_00fd68616a148a4550c1ed11908f9863 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_2fa09d974c8327f5d782ab2d8902f96b = $(`<div id="html_2fa09d974c8327f5d782ab2d8902f96b" style="width: 100.0%; height: 100.0%;">                     <b>City:</b> Kuala Lumpur<br>                     <b>Score:</b> 0.15<br>                     <b>Population Density:</b> 7500<br>                     <b>Average Income:</b> 45000<br>                     <b>Traffic Volume:</b> 8500                 </div>`)[0];
+                popup_00fd68616a148a4550c1ed11908f9863.setContent(html_2fa09d974c8327f5d782ab2d8902f96b);
+            
+        
+
+        circle_marker_d71c68fd3864562d2ecb379e1ee06faf.bindPopup(popup_00fd68616a148a4550c1ed11908f9863)
+        ;
+
+        
+    
+    
+            var circle_marker_7d934ee4ca8b0e7036ccf387548a259e = L.circleMarker(
+                [13.7563, 100.5018],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_42a23e67ab201b937ef759a5a180958d);
+        
+    
+        var popup_3350631f159e7e4d42d9b8f0ded3f5ba = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_229d4d2229ed71c4c352e10093c46365 = $(`<div id="html_229d4d2229ed71c4c352e10093c46365" style="width: 100.0%; height: 100.0%;">                     <b>City:</b> Bangkok<br>                     <b>Score:</b> 0.47<br>                     <b>Population Density:</b> 8200<br>                     <b>Average Income:</b> 42000<br>                     <b>Traffic Volume:</b> 9000                 </div>`)[0];
+                popup_3350631f159e7e4d42d9b8f0ded3f5ba.setContent(html_229d4d2229ed71c4c352e10093c46365);
+            
+        
+
+        circle_marker_7d934ee4ca8b0e7036ccf387548a259e.bindPopup(popup_3350631f159e7e4d42d9b8f0ded3f5ba)
+        ;
+
+        
+    
+    
+            var circle_marker_60d1460746e0982282da999841423392 = L.circleMarker(
+                [-6.2088, 106.8456],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_42a23e67ab201b937ef759a5a180958d);
+        
+    
+        var popup_ec396cec514519ae030231a853b4778b = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_1cce197747552ca203908f6947d6b155 = $(`<div id="html_1cce197747552ca203908f6947d6b155" style="width: 100.0%; height: 100.0%;">                     <b>City:</b> Jakarta<br>                     <b>Score:</b> 0.38<br>                     <b>Population Density:</b> 9100<br>                     <b>Average Income:</b> 38000<br>                     <b>Traffic Volume:</b> 8800                 </div>`)[0];
+                popup_ec396cec514519ae030231a853b4778b.setContent(html_1cce197747552ca203908f6947d6b155);
+            
+        
+
+        circle_marker_60d1460746e0982282da999841423392.bindPopup(popup_ec396cec514519ae030231a853b4778b)
+        ;
+
+        
+    
+    
+            var heat_map_63acfa7d4dbe6a657c1022902f6e11ce = L.heatLayer(
+                [[3.139, 101.6869, 0.15], [13.7563, 100.5018, 0.4732142857142858], [-6.2088, 106.8456, 0.38000000000000045]],
+                {"blur": 15, "maxZoom": 18, "minOpacity": 0.5, "radius": 25}
+            );
+        
+    
+            heat_map_63acfa7d4dbe6a657c1022902f6e11ce.addTo(map_42a23e67ab201b937ef759a5a180958d);
+        
+</script>
+</html>

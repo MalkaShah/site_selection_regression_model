@@ -1,0 +1,4 @@
+city,population_density,avg_income,traffic_volume,latitude,longitude,population_density_normalized,avg_income_normalized,traffic_volume_normalized,score
+Kuala Lumpur,7500,45000,8500,3.139,101.6869,0.0,1.0,0.0,0.15
+Bangkok,8200,42000,9000,13.7563,100.5018,0.4375,0.5714285714285721,1.0,0.4732142857142858
+Jakarta,9100,38000,8800,-6.2088,106.8456,1.0,0.0,0.6000000000000014,0.38000000000000045

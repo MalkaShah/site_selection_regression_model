@@ -1,0 +1,7 @@
+2024-11-17 20:14:56,430 - INFO - Site Selection Model initialized successfully
+2024-11-17 20:14:56,446 - INFO - Data loaded successfully
+2024-11-17 20:14:56,459 - INFO - Data preprocessing completed
+2024-11-17 20:14:56,462 - INFO - Site scores calculated successfully
+2024-11-17 20:14:56,652 - INFO - ML model trained and saved successfully
+2024-11-17 20:14:56,670 - INFO - Visualizations created successfully
+2024-11-17 20:14:56,674 - INFO - Results exported successfully
